@@ -24,7 +24,7 @@
       <div class="row">
         <div class="input-field col s12">
           <input type="text" v-model="position" required>
-          <label>Name</label>
+          <label>Position</label>
         </div>
       </div>
       <button type="submit" class="btn">Submit</button>
@@ -48,7 +48,9 @@
       },
       methods: {
         saveEmployee () {
-          db.collection('employees').add({
+          db
+          .collection('employees')
+          .add({
             employee_id: this.employee_id,
             name: this.name,
             dept: this.dept,

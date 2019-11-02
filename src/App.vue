@@ -9,11 +9,19 @@
 </template>
 
 <script>
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar';
+import NewEmployee from './components/NewEmployee';
 export default {
   name: 'App',
   components: {
-    Navbar
+    Navbar,
+    NewEmployee
   }
 }
 </script>
+
+<style>
+  nav{
+    margin-bottom: 10px;
+  }
+</style>
