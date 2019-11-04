@@ -95,7 +95,7 @@ export default {
   					position: this.position
   				})
   				.then(() => {
-  					this.$route.push({
+  					this.$router.push({
   						name: 'view-employee',
   						params: {
   							employee_id: this.employee_id

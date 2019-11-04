@@ -10,9 +10,11 @@
     <button @click="deleteEmployee" class="btn red">Delete</button>
 
     
-    	<router-link v-bind:to="{name: 'edit-employee', params: {employee_id: employee_id}}" class="btn">
-    		Edit
-    	</router-link>
+    	
+        <router-link v-if="employee_id" v-bind:to="{name: 'edit-employee', params: {employee_id: employee_id}}" class="btn">
+        Edit
+      </router-link>
+     
     
   </div>
 </template>
