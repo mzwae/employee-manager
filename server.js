@@ -6,7 +6,7 @@ const app = express();
 //Serve files from dist directory containing index.html file
 app.use('/', serveStatic(path.join(__dirname, '/dist')));
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8081;
 
 app.listen(port);
 
