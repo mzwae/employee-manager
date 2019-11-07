@@ -2,7 +2,7 @@
   "name": "employee-manager",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "no",
+  "author": "mz",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -55,8 +55,8 @@
     "webpack-merge": "^4.1.0"
   },
   "engines": {
-    "node": "8.7.0",
-    "npm": "3.10.8"
+    "node": "12.13.0",
+    "npm": "^3.10.8"
   },
   "browserslist": [
     "> 1%",
