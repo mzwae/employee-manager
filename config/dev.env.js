@@ -4,5 +4,5 @@ const prodEnv = require('./prod.env')
 
 module.exports = merge(prodEnv, {
   NODE_ENV: '"development"',
-  PROJECTID: '"vuefs-prod-49de0"'
+  // PROJECTID: '"vuefs-prod-49de0"'
 })
